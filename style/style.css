@@ -5,6 +5,15 @@
 	font-family: 'Staatliches', serif;
 }
 
+.navbar {
+	font-family: 'Fredoka One', serif;
+	font-size: 1.1rem;
+	color: #000;
+}
+
+.navbar .link {
+	color: #000;
+}
 .about {
 	padding: 5vh 0;
 }
@@ -22,6 +31,7 @@
 	height: 15rem;
 	margin: 2rem 0;
 }
+
 
 
 
