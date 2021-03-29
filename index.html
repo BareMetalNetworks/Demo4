@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Staatliches"/>
+  
 
     <link rel="stylesheet" href="style/style.css"/>
     <title>Hello, world!</title>
@@ -16,24 +19,24 @@
 
 <nav class="navbar navbar-toggleable-sm navbar-expand-sm navbar-light bg-faded">
   <div class="container">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a class="navbar-brand" href="#"><img class="" src="img/logo.svg"></a>
+    <a class="navbar-brand" href="#"><img class="img-fluid" src="img/logo2.svg"></a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link" href="#about">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#stats">Stats</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#team">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -55,28 +58,31 @@
 
 
 
-<section class="about text-center">
+<section class="about text-center" id="about">
   <div class="container">
     <h1>What We Do</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper, elit vitae venenatis euismod, erat est finibus urna, nec iaculis arcu lectus nec eros.</p>
   <div class="row">
-    <div class="col-sm">
+    <div class="col-sm mt-3">
       <h3>Cross Country Skiing</h3>
-      <i class="fas fa-skiing-nordic fa-5x text-warning"></i>
+      <i class="fas fa-skiing-nordic fa-5x text-warning my-3"></i>
+      <p>Dolor sit amet, consectetur adipiscing elit.</p>
     </div>
-    <div class="col-sm">
+    <div class="col-sm mt-3">
       <h3>Snowboarding</h3>
-      <i class="fas fa-snowboarding fa-5x text-primary"></i>
+      <i class="fas fa-snowboarding fa-5x text-warning my-3"></i>
+      <p>Finibus urna, nec iaculis arcu lectus.</p>
     </div>
-    <div class="col-sm">
+    <div class="col-sm mt-3">
       <h3>Downhill Skiing</h3>
-      <i class="fas fa-skiing fa-5x text-primary"></i>
+      <i class="fas fa-skiing fa-5x text-warning my-3"></i>
+      <p>Lit vitae venenatis euismod, erat est finibus urna.</p>
     </div>
   </div>
 </div>
 </section>
 
-<section class="stats bg-dark text-white text-center">
+<section class="stats bg-dark text-warning text-center" id="stats">
   <div class="container">
     <div class="row">
       <div class="col"><p class="display-2">121</p><p>Elit</p></div>
@@ -88,36 +94,7 @@
   </div>
 </section>
 
-<section class="team">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="card">
-          <img class="img card-img-top img-fluid" src="img/team-01.jpg"></div>
-          <div class="card-block">
-            <p class="card-title">Stephanie </p>
-            <p class="card-text">Ski Coach</p>
-          </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card">
-          <img class="img card-img-top img-fluid" src="img/team-02.jpg"></div>
-          <div class="card-block">
-            <p class="card-title"></p>
-            <p class="card-text"></p>
-          </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card">
-          <img class="img card-img-top img-fluid" src="img/team-03.jpg"></div>
-          <div class="card-block">
-            <p class="card-title"></p>
-            <p class="card-text"></p>
-          </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 
     <!-- Optional JavaScript -->
@@ -126,6 +103,51 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+
+<!-- Team-->
+<section class="page-section bg-light" id="team">
+    <div class="container text-center">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/team-01.jpg" alt="" />
+                    <h4>Kay Garland</h4>
+                    <p class="text-muted">Lead Designer</p>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/team-02.jpg" alt="" />
+                    <h4>Larry Parker</h4>
+                    <p class="text-muted">Lead Marketer</p>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle" src="img/team-03.jpg" alt="" />
+                    <h4>Diana Petersen</h4>
+                    <p class="text-muted">Lead Developer</p>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+        </div>
+    </div>
+</section>
 
   </body>
 </html>

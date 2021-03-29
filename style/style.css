@@ -2,11 +2,27 @@
 	background-image: url("../img/hero-02.png");
 	padding: 30vh 0;
 	background-size: cover;
+	font-family: 'Staatliches', serif;
 }
 
-i.fas {
-	color: #f38181;
+.about {
+	padding: 5vh 0;
 }
+
+.stats {
+	padding: 5vh 0;
+}
+
+.team {
+	padding: 10vh 0;
+}
+
+.team-member img {
+	width: 15rem;
+	height: 15rem;
+	margin: 2rem 0;
+}
+
 
 /*
 .btn-primary {
