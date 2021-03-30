@@ -11,15 +11,23 @@
 	color: #000;
 }
 
-.navbar .link {
+.navbar a {
 	color: #000;
+}
+
+.navbar a:hover {
+	color: #007ea3;
 }
 .about {
 	padding: 5vh 0;
 }
 
 .stats {
-	padding: 5vh 0;
+	padding: 15vh 0;
+}
+
+.stats p {
+	color: #007ea3;
 }
 
 .team {
@@ -31,6 +39,12 @@
 	height: 15rem;
 	margin: 2rem 0;
 }
+
+i.fas {
+	color: #007ea3;
+
+}
+
 
 
 
