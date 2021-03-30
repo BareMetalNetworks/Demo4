@@ -45,8 +45,28 @@ i.fas {
 
 }
 
+.about h1 {
+	font-family: 'Staatliches', serif;
+	font-size: 3em;
+}
 
+.team h1 {
+	font-family: 'Staatliches', serif;
+	font-size: 3em;
+}
 
+.about h2 {
+	font-family: 'Staatliches', serif;
+	font-size: 2em;
+}
+
+.contact h1 {
+
+	font-family: 'Staatliches', serif;
+	font-size: 3em;
+}
+
+}
 
 
 .footer-classic a, .footer-classic a:focus, .footer-classic a:active {
@@ -55,6 +75,7 @@ i.fas {
 .nav-list li {
     padding-top: 5px;
     padding-bottom: 5px;
+    color: ;
 }
 
 .nav-list li a:hover:before {
