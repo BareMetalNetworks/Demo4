@@ -45,6 +45,14 @@ i.fas {
 
 }
 
+
+.about img {
+		width: 20rem;
+	height: 20rem;
+	margin: 2rem 0;
+	border: 2px solid black;
+}
+
 .about h1 {
 	font-family: 'Staatliches', serif;
 	font-size: 3em;
@@ -91,8 +99,8 @@ ul, ol {
 }
 
 .nav-list li a:before {
-    content: "\f14f";
-    font: 400 21px/1 "Material Design Icons";
+   
+
     color: #4d6de6;
     display: inline-block;
     vertical-align: baseline;
